@@ -1,0 +1,13 @@
+--- axum-0.6.18/Cargo.toml	1970-01-01T00:00:01+00:00
++++ axum-0.6.18/Cargo.toml	2023-06-12T17:37:25.926713+00:00
+@@ -325,10 +325,6 @@
+ version = "1.0.9"
+ 
+ [features]
+-__private_docs = [
+-    "tower/full",
+-    "dep:tower-http",
+-]
+ default = [
+     "form",
+     "http1",
